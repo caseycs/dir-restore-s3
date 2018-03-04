@@ -1,10 +1,10 @@
-# dir-backup-s3
+# dir-restore-s3
 
-Docker image to restore directory from S3 via [s3cmd](https://github.com/s3tools/s3cmd)
+Docker image to restore S3 archive to directory via [s3cmd](https://github.com/s3tools/s3cmd)
 
 ## Motivation
 
-To restore Docker volume or just a directory from backup
+To restore Docker volume or just a directory from backup.
 
 ## Usage example
 

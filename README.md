@@ -10,7 +10,7 @@ To restore Docker volume or just a directory from backup.
 
 ```
 docker run --rm \
-  -v $(pwd):/restore
+  -v $(pwd):/restore \
   -e AWS_ACCESS_KEY=xxx \
   -e AWS_SECRET_KEY=xxx \
   caseycs/dir-restore-s3 \

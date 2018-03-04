@@ -19,6 +19,6 @@ else
     7z x ${P7Z_OPTIONS} -o"$RESTORE_DIR" "/tmp/$FILENAME"
 fi
 
-if [ ! -z "$DUMP_FILENAMES" ]; then
+if [ "$DUMP_FILENAMES" = "true" ]; then
     find $RESTORE_DIR
 fi

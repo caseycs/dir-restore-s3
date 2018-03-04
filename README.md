@@ -13,6 +13,7 @@ docker run --rm \
   -v $(pwd):/restore \
   -e AWS_ACCESS_KEY=xxx \
   -e AWS_SECRET_KEY=xxx \
+  -e DUMP_FILENAMES=1 \
   caseycs/dir-restore-s3 \
   s3://bucket/directory/file
 ```
